@@ -74,10 +74,10 @@ public class PlatanitosStepDef {
         screenShot();
     }
 
-    @Cuando("presiono comida")
-    public void presionoComida() {
+    @Cuando("presiono las ofertas")
+    public void presionoLasOfertas() {
         objPlatanitos = new PlatanitosSteps(driver);
-        objPlatanitos.ingresarComida();
+        objPlatanitos.ingresarofertas();
         screenShot();
     }
 
@@ -108,4 +108,6 @@ public class PlatanitosStepDef {
         objPlatanitos.verificarProduct();
         screenShot();
     }
+
+
 }

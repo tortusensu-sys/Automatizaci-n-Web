@@ -9,7 +9,7 @@ Característica: Pagina Platanitos
     Y le doy al boton cuenta
     Y inicio sesión con las credenciales usuario: "ricardoJraf1999@gmail.com" y contraseña: "Prueba123@" en Platanitos
     Y verifico que estoy dentro de la cuenta
-    Cuando presiono comida
+    Cuando presiono las ofertas
     Y seleciono un producto
     Y agrego al carrito el producto
     Entonces doy click al al icono del carrito

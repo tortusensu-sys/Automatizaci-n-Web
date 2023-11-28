@@ -56,12 +56,18 @@ public class PlatanitosSteps {
         WebElement elemento = driver.findElement(PlabtanitosPage.verifictSesion);
     }
 
-    public void ingresarComida() {
+    /*public void ingresarComida() {
         time(PlabtanitosPage.butoonComida);
         WebElement comidaButtonElement = driver.findElement(PlabtanitosPage.butoonComida);
 
         comidaButtonElement.click();
 
+    }*/
+    public void ingresarofertas() {
+        time(PlabtanitosPage.buttoonOfertas);
+        WebElement ofertasButtonElement = driver.findElement(PlabtanitosPage.buttoonOfertas);
+
+        ofertasButtonElement.click();
     }
 
     public void seleccionProducto() {
@@ -90,4 +96,6 @@ public class PlatanitosSteps {
         time(PlabtanitosPage.vericationCard);
         WebElement elemento = driver.findElement(PlabtanitosPage.vericationCard);
     }
+
+
 }
