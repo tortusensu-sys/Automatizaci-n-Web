@@ -1,7 +1,5 @@
 package com.nttdata.stepsdefinitions;
 
-import com.nttdata.steps.FaacebookSteps;
-import com.nttdata.steps.InventorySteps;
 import com.nttdata.steps.PlatanitosSteps;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -10,8 +8,6 @@ import io.cucumber.java.es.Cuando;
 import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.Entonces;
 import io.cucumber.java.es.Y;
-import org.junit.AfterClass;
-import org.junit.jupiter.api.Assertions;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
